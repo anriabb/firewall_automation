@@ -21,6 +21,8 @@ First of all to use this script you should use Python virtul environment
 
 !!! if automation will not work on queue 1, change it to number 2.
 
+!!! you can add unique IPs in WHITELIST array.
+
 ################################################################################
 
 
