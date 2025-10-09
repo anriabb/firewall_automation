@@ -30,7 +30,7 @@ def add_block_ip(ip):
     with state_lock:
         blocked_ips[ip] = time.time() + BLOCK_DURATION
     print(f"[BLOCK] {ip} blocked for {BLOCK_DURATION} seconds")
-    
+
     
 def remove_block_ip(ip):
     table = iptc.Table("filter")
